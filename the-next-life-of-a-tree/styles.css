@@ -1,0 +1,536 @@
+/* latin */
+@font-face {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mukta/v13/iJWKBXyXfDDVXbnBrXw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin */
+@font-face {
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cedarvillecursive/v17/yYL00g_a2veiudhUmxjo5VKkoqA-B_nuIrpw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'IM Fell French Canon';
+    font-style: italic;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/imfellfrenchcanon/v21/-F6gfiNtDWYfYc-tDiyiw08rrghJszkK6foXBN5Ayg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'IM Fell French Canon';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/imfellfrenchcanon/v21/-F6ufiNtDWYfYc-tDiyiw08rrghJszkK6foSNNw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /* latin-ext */
+@font-face {
+    font-family: 'Kotta One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/kottaone/v20/S6u_w41LXzPc_jlfNWq_FQft1dw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Kotta One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/kottaone/v20/S6u_w41LXzPc_jlfNWq_Gwft.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Vibur';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/vibur/v23/DPEiYwmEzw0QRgTuJDs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lora/v26/0QI6MX1D_JOuGQbT0gvTJPa787weuxJBkq0.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(123, 56, 0);
+    position: fixed;
+    align-items: center;
+    z-index: 99;
+    background-image: linear-gradient(whitesmoke, whitesmoke) ;
+    top:0;
+}
+
+#logo {
+    height: 85%;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+header h1 {
+    font-size: 1rem;
+    width: 110px;
+    padding-left: 15px;
+    font-family: "Cedarville Cursive", cursive;
+    line-height: 0.95;
+    cursor: pointer;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Kotta One", cursive;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul {
+    margin-left: auto;
+}
+
+header ul :nth-child(4) {
+    margin-right: 1.5rem;
+    color: rgb(192, 192, 192);
+}
+
+header ul :nth-child(3) {
+    border: 1px solid rgb(144, 201, 113);
+    background-color: rgb(225, 239, 217);
+    border-radius: 20px;
+    padding: 10px 1.5rem;
+
+}
+
+a.gray {
+    color: rgb(192, 192, 192);
+}
+
+header a:hover {
+    cursor: pointer;
+    color: rgb(84, 84, 84);
+}
+
+header ul :nth-child(3):hover {
+    background-color: rgb(144, 201, 113);
+    color: rgb(84, 84, 84);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+
+    
+    header ul :nth-child(4) {
+            display: none;
+        }
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    header h1 {
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 535px) {
+    #logo {
+        display: none;
+    }
+
+    header ul {
+        margin: 0 auto;
+        
+    }
+
+    header ul li a {
+        font-size: 25px;
+    }
+
+    header ul :nth-child(3) {
+        display: none;
+    }
+    
+}
+
+
+/* JUMBOTRON SECTION */
+
+#jumbotron {
+    background-image: url(./resources/images/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+    width: 100%;
+    position: relative;
+    top: 40px;
+    margin: 0 auto 0 auto;
+    min-height: 550px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    border-bottom: 1px solid rgb(123, 56, 0);
+}  
+
+#j-content {
+    height: 300px;
+    max-width: 45%;
+    /* background-color: rgba(144, 201, 113, 0.306); */
+    margin: 200px 0 auto 7%;
+    /* border-radius: 15px;
+    border: 1px solid rgb(144, 201, 113); */
+}
+
+#j-content h1{
+font-family: "Vibur", serif;
+font-size: 2rem;
+font-weight: 600;
+color: whitesmoke;
+}
+
+#j-content h2 {
+    font-family: "Kotta One", serif;
+    font-size: 1.6rem;
+    color: whitesmoke;
+    font-weight: 300
+}
+
+@media only screen and (max-width: 535px) {
+    #j-content h2 {
+        display: none;
+    }
+
+    #j-content {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #j-content h1 {
+        margin-top: 190%;
+        
+    }
+    #jumbotron {
+        max-height: 160px;
+    }
+}
+
+/* ABOUT SRCTION */
+
+#about-section {
+    width: 100%;
+    /* background: linear-gradient(whitesmoke, rgb(144, 201, 113)); */
+}
+
+#about {
+    font-family: "Kotta One", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+#about-section div {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#about-section div.paragraph {
+    display: block;
+    max-width: 53%;
+    margin: 0 25px 0 0;
+}
+
+#about-section p {
+    font-family: "Mukta", sans-serif;
+    text-indent: 0.75rem;
+    line-height: 1.5;
+    font-size: 1rem ;
+}
+
+#about-section img {
+    margin-top: 5rem;
+    max-width: 35%;
+    height: auto;
+    align-self: flex-start;
+    border: 3px solid white;
+    box-shadow: 5px 5px 20px gray;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #about-section div {
+        flex-wrap: wrap-reverse;
+    }
+
+    #about-section img {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    #about-section div.paragraph {
+        min-width: 100%;
+    }
+
+    @media only screen and (max-width: 535px) {
+        #about-section img {
+            min-width: 100%;
+        }
+    }
+
+    #about-section p {
+        font-size: 16px;
+    }
+}
+
+
+/* 
+PRODUCTS SECTION */
+
+.products {
+    /* background: linear-gradient(rgb(144, 201, 113), rgb(143, 223, 255)); */
+    margin-top: 0;
+}
+
+h4 { 
+    font-family: "Kotta One", serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 4rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.products p {
+    font-family: "Mukta", sans-serif;
+    line-height: 1.5;
+    font-size: 1rem ;
+    text-align: center;
+    font-weight: 600;
+    margin: 60px 0 120px 0;
+}
+
+.products a {
+    color: rgb(51, 72, 40);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.products a:hover {
+    color: gray;
+}
+
+#product-box {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#product-box img{
+    box-sizing: content-box;
+    max-width: 24%;
+    min-width: 180px;
+    margin: 0 auto 80px 0;
+    transition: all 0.3s;
+    border: 2px solid whitesmoke;
+}
+
+#product-box img:hover {
+    transform: scale(1.15);
+}
+
+@media only screen and (max-width: 535px) {
+    .products p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #product-box img {
+        min-width: 48%;
+    }
+}
+
+/* ORDER JUMBOTRON */
+
+#order {
+    background-image: url(./resources/images/michael-benz--IZ2sgQKIhM-unsplash.jpg);
+    width: 100%;
+    position: relative;
+    margin: 40px auto 0 auto;
+    min-height: 550px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-items: center; */
+    border-bottom: 1px solid rgb(123, 56, 0);
+    border-top: 1px solid rgb(123, 56, 0);
+}
+
+#order h4 {
+    position: absolute;
+    left: 4rem;
+}
+
+#order p {
+    font-family: "Kotta One", serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: start;
+    margin-top: 120px;
+    margin-left: 4rem;  
+}
+
+div#btn {
+    width: 115px;
+    height: fit-content;
+    background-color: rgb(144, 201, 113);
+    border-radius: 5px;
+    margin: 100px auto 0 auto;
+    border: 1px solid rgb(144, 201, 113);
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+div#btn a{
+    font-family: "Lora", sans-serif;
+    line-height: 1.5;
+    font-size: 1rem ;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width:100%;
+    color: whitesmoke;
+    transition: all 0.3s;
+}
+
+div#btn:hover {
+   transform: scale(1.15);
+   background-color:rgb(123, 56, 0);
+}
+
+@media only screen and (max-width: 768px) {
+    #order p {
+        margin-top: 150px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    #order h4, #order p {
+        position: relative;
+        text-align: center;
+        left: auto;
+        margin: 15px auto;
+    }
+
+    div#btn a {
+        font-size: 16px;
+    }
+}
+
+
+
+
+/* CREDITS */
+
+footer {
+    border-top: 1px solid rgb(123, 56, 0);
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    min-height:35px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mukta", sans-serif;
+}
+
+h5 {
+    font-family: "Mukta", sans-serif;
+    color: rgb(150, 150, 150);
+    font-size: 1.2;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 1.5rem;
+    color: rgb(150, 150, 150);
+}
+
+footer ul li a{
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+a#creator {
+    color:rgba(44, 127, 0, 0.703);
+    font-size: 1.2;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+footer ul li a:hover {
+    color: darkcyan
+}
+
+a#creator:hover {
+    transform: scale(1.15);
+    color: darkslategrey;
+
+}
